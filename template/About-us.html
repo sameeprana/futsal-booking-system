@@ -1,0 +1,128 @@
+ {% extends "base.html" %}
+ {% block body %}
+
+ <style>
+    
+    /* About us */
+    .about-us{
+        height: 100%;
+        width: 50%;
+        position: relative;
+        background-color: white;
+    }
+    .about-us-img{
+        background-image:url('../static/for-pages/futsal-about-us.png');
+        background-position:0;
+        background-repeat:repeat;
+    background-size: contain;
+    background-attachment:scroll;
+    position:relative;
+    height:1000px;
+    width:500px;
+    overflow:hidden;
+    }   
+    .about-us-inner-img{
+        background-image:url('../static/for-pages/soccer_1.jpg');
+        background-repeat:no-repeat;
+    background-size: contain;
+    background-attachment:scroll;
+    position:absolute;
+    height:600px;
+    width:250px;
+    top:0;
+    overflow:hidden;
+    left:67%;
+    background-color:white;
+   
+
+    }
+    .about-us-inner-img-2{
+        background-color:white;
+        background-image:url('../static/for-pages/soccer_2.jpg');
+        background-repeat:no-repeat;
+    background-size: contain;
+    background-attachment:scroll;
+    position:absolute;
+    height:200px;
+    width:250px;
+    top:190px;
+    left:67%;
+   
+
+    }
+
+    .about-us-inner-img-3{
+        background-color:white;
+        background-image:url('../static/for-pages/soccer_3.jpg');
+        background-repeat:no-repeat;
+        background-size: contain;
+        background-attachment:scroll;
+        position:absolute;
+        height:200px;
+        width:250px;
+        top:400px;
+       overflow:hidden;
+       left:67%;
+   
+
+    }
+    .about-us-description{
+        color:black;
+        height:100px;
+        width:700px;
+        position:absolute;
+        left:105%;
+        top:-20px;
+        font-size:20px;
+        font-weight:600;
+        letter-spacing:0.5px;
+        line-height: 1.7em;
+        border-radius:3px;
+        box-shadow:7px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    
+    }
+
+</style>
+    
+ <div class="about-us">
+<div class="about-us-img">
+</div>
+<div class="about-us-inner-img">
+<a href="#" style="color:white; 
+text-decoration:none;
+position: relative;
+left:33%;
+top:12%;
+padding:7px;
+border-radius:5px;
+background-color:#c7ceca;
+">&nbsp;&nbsp;&nbsp;View &nbsp;&nbsp;&nbsp;</a>
+</div>
+<div class="about-us-inner-img-2">
+    <a href="#" style="color:white; 
+    text-decoration:none;
+    position: relative;
+    left:33%;
+    top:30%;
+    padding:7px;
+    border-radius:5px;
+    background-color:#c7ceca;
+    ">&nbsp;&nbsp;&nbsp;View &nbsp;&nbsp;&nbsp;</a>
+    
+</div>
+
+<div class="about-us-description"><br>
+    <h2>Who are we?</h2>
+<p>
+Greenwish Futsal is located in Kapan (Kathmandu).
+ It is a 5v5 futsal facility opened with an aim to promote the sport of futsal and to establish the branches around Kathmandu. 
+It was started in 2016 AD with a motive to provide a convenient hangout place.
+ It also includes a gymnasium and a swimming pool	
+for recreational activities with affordable price.    
+
+</p>
+</div>
+ </div>
+ {% endblock body %}
